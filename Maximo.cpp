@@ -14,7 +14,7 @@ int main() {
 	cout << "Bienvenido al identificador del valor entero maximo.\n"
 	<< "Escriba un entero para agregarlo a la lista\n" 
 	<< "'M' para obtener el valor maximo\n"
-	<< "'P' para imprimir el contenido de la lisat en pantalla\n" 
+	<< "'P' para imprimir el contenido de la lista en pantalla\n" 
 	<< "'Q' para salir del programa\n";
 	recibirInput();
 }
