@@ -1,0 +1,37 @@
+        +---------------------------------+
+        |Algoritmos y Estructuras de Datos|
+        |UTN-FRBA-Curso K1051             |
+        |TP No 5 - Maximo                 |
+        +---------------------------------+
+
+
+Bienvenido al identificador del valor entero maximo.
+Escriba un entero para agregarlo a la lista
+'M' para obtener el valor maximo
+'P' para imprimir el contenido de la lista en pantalla
+'Q' para salir del programa
+123
+845
+62
+9
+78
+P
+123 845 62 9 78
+542
+321
+456
+921
+P
+123 845 62 9 78 542 321 456 921
+M
+El numero maximo es 921
+154
+321
+585
+1239
+P
+123 845 62 9 78 542 321 456 921 154 321 585 1239
+M
+El numero maximo es 1239
+Q
+--------------------------------
