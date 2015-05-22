@@ -1,3 +1,9 @@
+/* UTN-FRBA-AED
+ * TP Nº 6: Maximo
+ * Alumno: Federico León Bruzone [155-683.6] 
+ * Fecha: 21/04/2015
+*/ 
+
 #include <iostream>
 #include <vector>
 #include <string>
