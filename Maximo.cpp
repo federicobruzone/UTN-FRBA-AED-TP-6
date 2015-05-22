@@ -20,7 +20,7 @@ int main() {
 	cout << "Bienvenido al identificador del valor entero maximo.\n"
 	<< "Escriba un entero para agregarlo a la lista\n" 
 	<< "'M' para obtener el valor maximo\n"
-	<< "'P' para imprimir el contenido de la lista en pantalla\n" 
+	<< "'P' para imprimir el contenido de la lista en pantalla\n" // La p es de 'print'
 	<< "'Q' para salir del programa\n";
 	recibirInput(); //Esta funcion permite recibir nuevos valores hasta que el usario decida salir del programa
 }
@@ -38,14 +38,13 @@ void imprimBanner()
 void recibirInput (){
 	vector<int> miVector;
 	string input;
-	int max;
-	
+
 	do {	// El metodo de la funcion se ejecuta en un loop infinito
 		cin.clear(); // Para filtrar caracteres de retorno arrastrados de ingresos anteriores
 		cin >> input;
 		if ((input == "m") || (input == "M"))
 			cout << "El numero maximo es " << mostrarMaximo(miVector) << "\n";
-		else if ((input == "p") || (input == "P")) // La p es de 'print'
+		else if ((input == "p") || (input == "P")) 
 			imprimirContenido (miVector);
 		else if ((input == "q") || (input == "Q"))
 			exit(0);
